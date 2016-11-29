@@ -23,3 +23,28 @@ E = the experience of playing many games of checkers
 T = the task of playing checkers.
 P = the probability that the program will win the next game.
 In general, any machine learning problem can be assigned to one of two broad classifications: Supervised learning and Unsupervised learning.
+
+## Supervised Learrning ##
+
+E.g. Housing Prices. Given a set of past data, a basic algorithm night just extrapolate two parameters of data using linear fitting (regression fitting). If there are external factors that influence the data, then the function to fit may be quite complicated. A different algorithm may model the function with a higher order polynomial. Basically this is a **regression problem**.
+
+Another example might be breast cancer tumour data. Assume you have data of both malignant and benign tumours, where both classes have a range of tumour sizes. Can you determine the probability of malignant or benign based on size? This is ** classification problem**. Binomial-looking datasets may actually be based on N > 2 classes. This becomes more difficult. More parameters (e.g include age) is likely to help an algorithm separate the classes. Many or an infinite number of attributes (parameters) is often what you need to develop a good algorithm. In astronomy, much of our data analysis can be separated into regression or classification.
+
+
+Question: Scenario 1: You have a large inventory of identical items, you want to know how many items will sell over the next three months.
+Scenario 2: You'd like software to ezamine individual customer accounts,  and decide if each has been hacked/compromised.
+S! is a regression problem, S2 is a classification problem (.e bimary states)
+
+**Summary:**
+Supervised learning problems are categorized into "regression" and "classification" problems. In a regression problem, we are trying to predict results within a continuous output, meaning that we are trying to map input variables to some continuous function. In a classification problem, we are instead trying to predict results in a discrete output. In other words, we are trying to map input variables into discrete categories.
+
+Example 1: Given data about the size of houses on the real estate market, try to predict their price. Price as a function of size is a continuous output, so this is a regression problem. We could turn this example into a classification problem by instead making our output about whether the house "sells for more or less than the asking price." Here we are classifying the houses based on price into two discrete categories.
+
+Example 2: (a) Regression - Given a picture of a person, we have to predict their age on the basis of the given picture (b) Classification - Given a patient with a tumor, we have to predict whether the tumor is malignant or benign.
+
+## Unsupervised Learrning ##
+
+
+
+
+
