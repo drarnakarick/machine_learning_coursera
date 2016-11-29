@@ -24,7 +24,7 @@ T = the task of playing checkers.
 P = the probability that the program will win the next game.
 In general, any machine learning problem can be assigned to one of two broad classifications: Supervised learning and Unsupervised learning.
 
-## Supervised Learrning ##
+## Supervised Learning ##
 
 E.g. Housing Prices. Given a set of past data, a basic algorithm night just extrapolate two parameters of data using linear fitting (regression fitting). If there are external factors that influence the data, then the function to fit may be quite complicated. A different algorithm may model the function with a higher order polynomial. Basically this is a **regression problem**.
 
@@ -42,7 +42,14 @@ Example 1: Given data about the size of houses on the real estate market, try to
 
 Example 2: (a) Regression - Given a picture of a person, we have to predict their age on the basis of the given picture (b) Classification - Given a patient with a tumor, we have to predict whether the tumor is malignant or benign.
 
-## Unsupervised Learrning ##
+For labelled data you would normally implemet supervised learning.
+
+## Unsupervised Learning ##
+
+Is when you have data and you need to classify it without prior knowledge of the parameters. In this case an appropriate ML algorithm would be a clustering algorithm. THis is essentially what we do in astronomy with color-magnitude or color-color diagrams. We look for structure or clustering. This type of algorithm is used for genetic data, social network analysis, market segmentation/demographics, and of course astronomy.
+
+Andrew tehn talks about the cocktail party problem: two people at a party with two microphones placed in a different parts of the room. Essentially you look at all combinations in the data. This is kind of like prinipal component analysis. There is a cocktail party problem algorithm: **[W,s,v]=svd((repmat(sum(x.*x,1),size(x,1),1).*x)*x; **  *https://en.wikipedia.org/wiki/Source_separation This essentially a source separation problem. 
+
 
 
 
